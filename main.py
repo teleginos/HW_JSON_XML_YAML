@@ -1,6 +1,8 @@
 from colorama import Fore, init
 import json
 
+init()
+
 
 def employees_rewrite(sort_type):
     valid_keys = ['firstName', 'lastName', 'department', 'salary']
